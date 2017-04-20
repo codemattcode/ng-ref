@@ -1,12 +1,21 @@
-<h1>
-  {{title}}
-</h1>
+<div class="container">
+  <div class="row">
 
 <nav>
-  <ul>
+  <ul class="col-md-12">
     <li><a routerLink="about">About</a></li>
     <li><a routerLink="contact">Contact</a></li>
   </ul>
 </nav>
 
-<router-outlet></router-outlet>
+</div><!-- /row --> 
+  
+  <div class="row">
+    <div class="col-md-12">
+      <router-outlet></router-outlet>
+    </div>
+  
+  </div><!-- /row -->
+
+</div><!-- /container -->
+

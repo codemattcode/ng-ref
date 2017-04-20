@@ -7,7 +7,7 @@ import { ContactComponent } from './contact/contact.component';
 
 export const router: Routes = [
   {
-    path: '', redirectTo: 'about', pathMatch: 'full'
+    path: 'index', component: AppComponent
   },
   {
     path: 'about', component: AboutComponent
